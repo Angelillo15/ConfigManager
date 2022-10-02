@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "es.angelillo15"
-version = "1.1"
+version = "1.2"
 
 repositories {
     mavenCentral()
@@ -28,7 +28,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "es.angelillo15"
             artifactId = "ConfigManager"
-            version = "1.1"
+            version = "1.2"
 
             from(components["java"])
         }

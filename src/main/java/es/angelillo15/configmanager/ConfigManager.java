@@ -1,4 +1,4 @@
-package es.angelillo15;
+package es.angelillo15.configmanager;
 
 import org.simpleyaml.configuration.file.YamlFile;
 
