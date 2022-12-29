@@ -1,5 +1,6 @@
 package es.angelillo15.configmanager;
 
+
 import org.simpleyaml.configuration.file.YamlFile;
 
 import java.io.File;

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "es.angelillo15"
-version = "1.2"
+version = "1.4"
 
 repositories {
     mavenCentral()
@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Carleslc.Simple-YAML:Simple-YAML-Parent:1.8.3")
+    implementation("com.github.Carleslc.Simple-YAML:Simple-Yaml:1.8.3")
     implementation("org.yaml:snakeyaml:1.32")
 }
 
@@ -28,7 +28,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "es.angelillo15"
             artifactId = "ConfigManager"
-            version = "1.2"
+            version = "1.4"
 
             from(components["java"])
         }
