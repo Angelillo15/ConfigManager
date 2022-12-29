@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("me.carleslc.Simple-YAML:Simple-Yaml:1.8.1")
+    implementation("com.github.Carleslc.Simple-YAML:Simple-YAML-Parent:1.8.3")
     implementation("org.yaml:snakeyaml:1.32")
 }
 
